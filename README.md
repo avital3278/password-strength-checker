@@ -18,3 +18,16 @@
 ```bash
 git clone [https://github.com/avital3278/password-strength-checker.git](https://github.com/avital3278/password-strength-checker.git)
 cd password-strength-checker
+```
+
+2. התקינו את התלויות וסביבת הפיתוח:
+```bash
+uv sync --dev
+```
+
+3. הרצת בדיקות איכות:
+```bash
+uv run ruff check .
+uv run ty check
+uv run pytest --cov --cov-fail-under=80
+```
