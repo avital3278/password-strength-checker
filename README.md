@@ -16,5 +16,5 @@
 
 1. שכפלו את המאגר:
 ```bash
-git clone https://github.com/avital3278/password-strength-checker.git(https://github.com/avital3278/password-strength-checker.git)
+git clone [https://github.com/avital3278/password-strength-checker.git](https://github.com/avital3278/password-strength-checker.git)
 cd password-strength-checker
