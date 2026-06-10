@@ -13,7 +13,7 @@ def check_password_strength(password: str) -> dict[str, str | list[str]]:
     if not any(char.isdigit() for char in password):
         feedback.append("הסיסמה חייבת להכיל לפחות מספר אחד (0-9).")
 
-    special_characters = "!@#$%^&*(),.?\":{}|<>"
+    special_characters = '!@#$%^&*(),.?":{}|<>'
     if not any(char in special_characters for char in password):
         feedback.append("הסיסמה חייבת להכיל לפחות תו מיוחד אחד (כמו !, @, #, $).")
 
