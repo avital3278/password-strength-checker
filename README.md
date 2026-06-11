@@ -1,6 +1,5 @@
 [![CI Pipeline](https://github.com/avital3278/password-strength-checker/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/avital3278/password-strength-checker/actions/workflows/ci.yml)
-[![Coverage Status](https://img.shields.io/badge/coverage-93%25-brightgreen.svg)]()
-
+[![Codecov](https://codecov.io/gh/avital3278/password-strength-checker/graph/badge.svg)](https://codecov.io/gh/avital3278/password-strength-checker)
 # 🔐 Password Strength Analyzer
 
 A robust, Python-based CLI tool designed to evaluate password complexity and provide immediate, user-friendly feedback. Built as part of an advanced CI/CD engineering challenge, this project demonstrates industry-standard quality assurance workflows.
@@ -30,7 +29,7 @@ This project is built with modern Python development tools to ensure code reliab
 * **Dependency Management:** `uv` (Fast Python package installer)
 * **Static Analysis:** `Ruff` (Lightning-fast linter and code formatter)
 * **Type Checking:** `ty` / `mypy` (Strict static type validation)
-* **Testing Framework:** `pytest` with `pytest-cov` (Maintaining >93% code coverage)
+* **Testing Framework:** `pytest` with `pytest-cov` (Maintaining >100% code coverage)
 * **CI/CD:** Automated GitHub Actions pipeline running on every push.
 
 ---
