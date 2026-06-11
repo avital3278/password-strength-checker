@@ -1,3 +1,5 @@
+import getpass
+
 def check_password_strength(password: str) -> dict[str, str | list[str]]:
     feedback: list[str] = []
 
@@ -27,7 +29,7 @@ def check_password_strength(password: str) -> dict[str, str | list[str]]:
     return {"strength": strength, "feedback": feedback}
 
 
-if __name__ == "__main__":
-    user_password = "Test123!"
+if __name__ == "__main__":  # pragma: no cover
+    user_password = getpass.getpass("Enter a password to check its strength: ")
     result = check_password_strength(user_password)
-    print(f"Password: {user_password} -> Result: {result}")
+    print(f"Password Strength Result: {result}")
