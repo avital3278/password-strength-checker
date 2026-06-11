@@ -1,5 +1,6 @@
 import getpass
 
+
 def check_password_strength(password: str) -> dict[str, str | list[str]]:
     feedback: list[str] = []
 
